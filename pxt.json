@@ -2,7 +2,8 @@
     "name": "try01",
     "description": "",
     "dependencies": {
-        "sparkfun-samd21-dev-breakout": "*"
+        "sparkfun-samd21-dev-breakout": "*",
+        "pxt-samd21-zumo": "github:huaichihchang/pxt-samd21-zumo#c1c14d8791a2642c975286c474414d64e2b9cf87"
     },
     "files": [
         "main.blocks",
@@ -19,5 +20,5 @@
     "supportedTargets": [
         "maker"
     ],
-    "preferredEditor": "blocksprj"
+    "preferredEditor": "tsprj"
 }
